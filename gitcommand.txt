@@ -1,0 +1,36 @@
+For local git to bit
+
+git --version
+git init
+git status
+git add .
+git status
+git commit -m "newfile"
+git remote add origin https://Madhusri13@bitbucket.org/Madhusri13/madhuver.git
+git push -u origin master
+
+
+
+For Bit to git
+
+mkdir <dir>
+cd <dir>
+git init
+git clone https://Madhusri13@bitbucket.org/Madhusri13/madhuver.git
+
+git https://Madhusri13@bitbucket.org/Madhusri13/madhuver.git
+
+
+ETL_INT to Master
+
+git rm -r *
+add files
+git add .
+git commit
+git push origin ETL_INT
+git checkout master
+git checkout ETL_INT .
+git commit 
+git pull 
+git push origin master
+
